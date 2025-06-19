@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/Sabbir-help/image/blob/main/1692187104188-removebg-preview-removebg-preview.png?raw=true" width="800" alt="Digital Marketer"/>
+  <img src="https://github.com/Sabbir-help/image/blob/main/pinterestdownloader.com-1750369967.312705.gif?raw=true" width="800" alt="Digital Marketer"/>
 </p>
 
 
