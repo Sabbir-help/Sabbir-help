@@ -13,6 +13,9 @@
 
 ---
 
+![Digital Marketer](https://github.com/Sabbir-help/image/blob/main/1692187104188.png)
+
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=FFFF00&width=435&lines=Passionate+Digital+Marketer;Full-Stack+Developer" alt="Typing animation" />
 </p>
