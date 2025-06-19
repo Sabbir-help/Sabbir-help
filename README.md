@@ -1,9 +1,31 @@
 <h1 align="center">Hay 👋, I'm SABBIR</h1>
-<h3 align="center">Passionate Digital Marketer | Full-Stack Developer | Web3 Engineer</h3>
+<h3 align="center">Passionate Digital Marketer | Full-Stack Developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sabbir4m&label=Profile%20views&color=0e75b6&style=flat" alt="sabbir4m" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=sabbir4m&label=Profile%20views&color=0e75b6&style=flat" alt="sabbir4m" /> </p>
 
-<p align="left"> <a href="https://twitter.com/sabbir4m" target="blank"><img src="https://img.shields.io/twitter/follow/sabbir4m?logo=twitter&style=for-the-badge" alt="sabbir4m" /></a> </p>
+---
+
+<div align="center">
+  <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png"  alt="ABDULLAH AL SABBIR"/>
+  <h2 align="center">ABDULLAH AL SABBIR</h2>
+  <p align="center">🏆 Full-time Freelance | Digital Marketer | Web Developer</p>
+</div>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=FFFF00&width=435&lines=Passionate+Digital+Marketer;Full-Stack+Developer" alt="Typing animation" />
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+<p align="center"> <a href="https://twitter.com/sabbir4m" target="blank"><img src="https://img.shields.io/twitter/follow/sabbir4m?logo=twitter&style=for-the-badge" alt="sabbir4m" /></a> </p>
 
 - 🔭 I’m currently working on **Digital Marketplace for Verified Accounts & Reviews**
 
@@ -32,4 +54,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sabbir4m&show_icons=true&locale=en&layout=compact" alt="sabbir4m" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sabbir4m&show_icons=true&locale=en" alt="sabbir4m" /></p>
-# 2.0
+
+
+<h3 align="center">ABDULLAH AL SABBIR</h3>
