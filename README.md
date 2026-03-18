@@ -30,8 +30,8 @@ I’m a Passionate Digital Marketer & Web Developer
 
 
 <p align="left">
-  <a href="https://twitter.com/sabbir4m" target="_blank">
-    <img src="https://img.shields.io/badge/Follow%20me-@SABBIR4M-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow on Twitter">
+  <a href="https://www.facebook.com/SABBIRXDM" target="_blank">
+    <img src="https://img.shields.io/badge/Follow%20me-@SABBIRXDM-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow on Twitter">
   </a>
 </p>
 
@@ -102,7 +102,7 @@ I’m a Passionate Digital Marketer & Web Developer
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://twitter.com/sabbir4m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sabbir4m" height="30" width="40" /></a>
-<a href="https://fb.com/sabbir4m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sabbir4m" height="30" width="40" /></a>
-<a href="https://instagram.com/sabbir.help" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sabbir.help" height="30" width="40" /></a>
+<a href="https://twitter.com/SABBIRXDM" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sabbir4m" height="30" width="40" /></a>
+<a href="https://fb.com/SABBIRXDM" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sabbir4m" height="30" width="40" /></a>
+<a href="https://instagram.com/SABBIRXDM" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sabbir.help" height="30" width="40" /></a>
 </p>
