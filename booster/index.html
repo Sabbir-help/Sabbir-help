@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>GitHub Booster Pro | Digital Glow Suite</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at 20% 30%, #0a0f1e, #03060c);
+            font-family: 'Inter', sans-serif;
+            color: #eef5ff;
+            line-height: 1.5;
+            padding: 1.5rem;
+            min-height: 100vh;
+        }
+
+        /* GLOW & GLASS CORE */
+        .glass-panel {
+            background: rgba(12, 20, 35, 0.55);
+            backdrop-filter: blur(12px);
+            border-radius: 2rem;
+            border: 1px solid rgba(0, 255, 255, 0.25);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 12px rgba(0, 255, 255, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .glow-text {
+            text-shadow: 0 0 6px cyan, 0 0 10px #0af;
+        }
+
+        .btn-glow {
+            background: linear-gradient(95deg, #0b2b3b, #02111d);
+            border: 1px solid #0ff8;
+            color: #caf0ff;
+            font-weight: 600;
+            transition: 0.2s;
+            box-shadow: 0 2px 8px rgba(0, 255, 255, 0.2);
+        }
+
+        .btn-glow:hover {
+            background: #0b3b4f;
+            border-color: #0ff;
+            box-shadow: 0 0 12px #0ff6;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0f1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0ff;
+            border-radius: 8px;
+        }
+
+        /* cards */
+        .feature-card {
+            background: rgba(8, 18, 28, 0.7);
+            backdrop-filter: blur(4px);
+            border-radius: 1.5rem;
+            padding: 1rem 1.2rem;
+            border-left: 4px solid #0ff;
+            transition: 0.2s;
+        }
+        .feature-card:hover {
+            background: rgba(0, 40, 55, 0.7);
+            border-left-color: #f0f;
+            box-shadow: 0 0 8px cyan;
+        }
+
+        .badge-glow {
+            background: #0ff1a;
+            color: #0ff;
+            border-radius: 40px;
+            padding: 0.2rem 0.8rem;
+            font-size: 0.7rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        input, textarea, select {
+            background: #07121ecc;
+            border: 1px solid #2c5a6e;
+            border-radius: 1rem;
+            padding: 0.7rem 1rem;
+            color: #eef5ff;
+            font-family: 'Inter', monospace;
+            transition: 0.2s;
+            width: 100%;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0ff;
+            box-shadow: 0 0 10px #0ff8;
+        }
+
+        .token-entry {
+            background: #030b14;
+            border-radius: 1rem;
+            padding: 0.75rem;
+        }
+
+        .status-chip {
+            background: #0a1a24;
+            border-radius: 2rem;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        /* animation pulse */
+        @keyframes softPulse {
+            0% { opacity: 0.7; text-shadow: 0 0 2px cyan;}
+            100% { opacity: 1; text-shadow: 0 0 8px cyan;}
+        }
+        .pulse-glow {
+            animation: softPulse 1.2s infinite alternate;
+        }
+
+        hr {
+            border-color: #2c4b66;
+            margin: 1rem 0;
+        }
+
+        .grid-responsive {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" style="max-width: 1400px; margin: 0 auto;">
+    <!-- header with developer credits -->
+    <div class="glass-panel" style="padding: 1.8rem 2rem; margin-bottom: 2rem; text-align: center;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+            <div>
+                <i class="fab fa-github" style="font-size: 3rem; color: #0ff; filter: drop-shadow(0 0 6px cyan);"></i>
+                <h1 style="font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; display: inline-block; margin-left: 12px;">
+                    GITHUB BOOSTER <span style="color: #0ff;">PRO</span>
+                </h1>
+                <div class="badge-glow" style="display: inline-block; margin-left: 1rem;">v12.0 • 2026</div>
+            </div>
+            <div style="text-align: right;">
+                <div><i class="fas fa-code-branch"></i> DEVELOPER: <strong>ABDULLAH AL SABBIR</strong></div>
+                <div><i class="fab fa-telegram"></i> TELEGRAM: <strong>@SABBIRX007</strong></div>
+            </div>
+        </div>
+        <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">
+            <span class="status-chip"><i class="fas fa-user-plus"></i> Auto Follow</span>
+            <span class="status-chip"><i class="fas fa-star"></i> Auto Star</span>
+            <span class="status-chip"><i class="fas fa-code-fork"></i> Auto Fork</span>
+            <span class="status-chip"><i class="fas fa-eye"></i> Auto Watch</span>
+            <span class="status-chip"><i class="fas fa-cogs"></i> One-by-One Processing</span>
+        </div>
+    </div>
+
+    <!-- MAIN DASHBOARD GRID: LEFT (INPUTS) + RIGHT (CONTROLS / LIVE) -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 1.8rem;">
+        <!-- LEFT PANEL: TOKENS & TARGET -->
+        <div class="glass-panel" style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.4rem;">
+                <i class="fas fa-key" style="color: #0ff; font-size: 1.8rem;"></i>
+                <h2 style="font-weight: 700;">Token Vault</h2>
+                <div class="badge-glow">Multi-account</div>
+            </div>
+            <textarea id="tokensInput" rows="4" placeholder="Paste GitHub tokens (one per line)...&#10;ghp_xxxxxxxxxxxx&#10;ghp_yyyyyyyyyyyy" style="font-size: 0.8rem; font-family: monospace;"></textarea>
+            <div class="token-entry" style="margin-top: 0.8rem; display: flex; justify-content: space-between; align-items: center;">
+                <span><i class="fas fa-database"></i> Tokens loaded: <strong id="tokenCountDisplay">0</strong></span>
+                <button id="refreshTokensBtn" class="btn-glow" style="padding: 0.3rem 1rem; border-radius: 2rem;"><i class="fas fa-sync-alt"></i> Reload</button>
+            </div>
+            <hr>
+            <div>
+                <label><i class="fas fa-bullseye"></i> Target Username / Repo (format)</label>
+                <input type="text" id="targetInput" placeholder="e.g., octocat  OR  owner/repo (for star/fork/watch)" class="mt-2">
+                <div class="mt-2" style="display: flex; gap: 10px; margin-top: 12px;">
+                    <select id="actionTypeSelect" class="btn-glow" style="background: #0a1824; width: auto; flex:2">
+                        <option value="follow">🚀 FOLLOW BOOST (increase followers)</option>
+                        <option value="unfollow">🔁 UNFOLLOW BOOST</option>
+                        <option value="star">⭐ STAR BOOST (increase stars)</option>
+                        <option value="unstar">💔 UNSTAR BOOST</option>
+                        <option value="fork">🍴 FORK BOOST</option>
+                        <option value="watch">👁️ WATCH BOOST (subscribe)</option>
+                        <option value="unwatch">🔕 UNWATCH BOOST</option>
+                    </select>
+                    <button id="quickStartBtn" class="btn-glow" style="padding: 0 1.8rem;"><i class="fas fa-play"></i> EXECUTE</button>
+                </div>
+            </div>
+            <div style="margin-top: 1rem; display: flex; gap: 12px; flex-wrap: wrap;">
+                <div><i class="fas fa-hourglass-half"></i> Delay (sec)</div>
+                <input type="number" id="delaySec" value="2" min="1" max="8" style="width: 90px;">
+                <div><i class="fas fa-layer-group"></i> Use tokens count</div>
+                <input type="number" id="useCount" value="10" min="1" max="500" style="width: 90px;">
+            </div>
+            <div class="mt-2" style="margin-top: 12px; font-size: 0.8rem; background: #0a111e80; border-radius: 1rem; padding: 0.7rem;">
+                <i class="fas fa-info-circle"></i> <strong>One-by-One processing</strong> — each token verified then action performed. Real-time logs shown.
+            </div>
+        </div>
+
+        <!-- RIGHT PANEL: LOGS & STATS GLOW -->
+        <div class="glass-panel" style="padding: 1.5rem; display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                <h2><i class="fas fa-terminal"></i> LIVE CONSOLE <span style="font-size: 0.7rem;" class="badge-glow">GitHub API</span></h2>
+                <button id="clearLogsBtn" class="btn-glow" style="padding: 0.2rem 1rem;"><i class="fas fa-broom"></i> Clear</button>
+            </div>
+            <div id="liveLogs" style="background: #010a13cc; border-radius: 1.5rem; padding: 1rem; height: 340px; overflow-y: auto; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; border: 1px solid #0ff3;">
+                <div class="status-chip" style="background: #0ff22a;"><i class="fas fa-plug"></i> Ready. Setup tokens & target → hit EXECUTE</div>
+            </div>
+            <!-- STATS SUMMARY GLOW -->
+            <div class="grid-responsive" style="margin-top: 1.2rem; gap: 0.8rem;">
+                <div class="feature-card" style="text-align: center;">
+                    <i class="fas fa-check-circle" style="font-size: 1.5rem; color: #0f0;"></i>
+                    <div><strong id="statSuccess">0</strong> <span style="opacity:0.8;">Success</span></div>
+                </div>
+                <div class="feature-card" style="text-align: center;">
+                    <i class="fas fa-times-circle" style="font-size: 1.5rem; color: #f55;"></i>
+                    <div><strong id="statFailed">0</strong> <span>Failed</span></div>
+                </div>
+                <div class="feature-card" style="text-align: center;">
+                    <i class="fas fa-ban" style="font-size: 1.5rem; color: #ffaa44;"></i>
+                    <div><strong id="statInvalid">0</strong> <span>Invalid Tokens</span></div>
+                </div>
+            </div>
+            <div class="status-chip" style="margin-top: 0.6rem; text-align: center; background: #0b2c33;">
+                <i class="fas fa-shield-alt"></i> Rate limits respected | One request per token
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES OVERVIEW SECTION (DIGITAL THEME) -->
+    <div class="glass-panel" style="margin-top: 2rem; padding: 1.8rem;">
+        <h2 style="display: flex; align-items: center; gap: 12px;"><i class="fas fa-crown" style="color: gold;"></i> ✦ All Booster Services ✦ <i class="fas fa-bolt pulse-glow" style="color: #0ff;"></i></h2>
+        <div class="grid-responsive" style="margin-top: 1.2rem;">
+            <div class="feature-card"><i class="fab fa-github-alt"></i> <strong>Follow / Unfollow</strong><br>Mass follow/unfollow one target with tokens (one-by-one verification).</div>
+            <div class="feature-card"><i class="fas fa-star"></i> <strong>Star / Unstar</strong><br>Boost repository stars or remove stars from target repo.</div>
+            <div class="feature-card"><i class="fas fa-code-fork"></i> <strong>Fork Boost</strong><br>Create forks across many accounts, each fork counts as contribution.</div>
+            <div class="feature-card"><i class="fas fa-eye"></i> <strong>Watch / Unwatch</strong><br>Subscribe to repo notifications for massive visibility.</div>
+        </div>
+        <div style="margin-top: 1rem; font-size: 0.9rem; background: #2100FF; border-radius: 1rem; padding: 0.7rem; text-align: center;">
+            <i class="fas fa-microchip"></i> <strong>Digital Engine v12.0</strong> — each token processed sequentially, delays avoid detection. Real-time token validation.
+        </div>
+    </div>
+</div>
+
+<script>
+    // ---------- GLOBAL STATE ----------
+    let abortFlag = false;
+    let currentRunning = false;
+
+    // DOM elements
+    const tokensTextarea = document.getElementById('tokensInput');
+    const tokenCountSpan = document.getElementById('tokenCountDisplay');
+    const targetInput = document.getElementById('targetInput');
+    const actionSelect = document.getElementById('actionTypeSelect');
+    const delayInput = document.getElementById('delaySec');
+    const useCountInput = document.getElementById('useCount');
+    const execBtn = document.getElementById('quickStartBtn');
+    const clearLogsBtn = document.getElementById('clearLogsBtn');
+    const refreshTokensBtn = document.getElementById('refreshTokensBtn');
+    const liveLogsDiv = document.getElementById('liveLogs');
+    const statSuccessSpan = document.getElementById('statSuccess');
+    const statFailedSpan = document.getElementById('statFailed');
+    const statInvalidSpan = document.getElementById('statInvalid');
+
+    // Helper: update token display count
+    function updateTokenCount() {
+        const raw = tokensTextarea.value;
+        const tokens = raw.split(/\r?\n/).filter(t => t.trim().length > 0);
+        tokenCountSpan.innerText = tokens.length;
+        return tokens;
+    }
+
+    tokensTextarea.addEventListener('input', updateTokenCount);
+    refreshTokensBtn.addEventListener('click', () => {
+        updateTokenCount();
+        addLogMessage('system', `Token list refreshed. Total: ${updateTokenCount()} tokens.`, '#0ff');
+    });
+
+    function addLogMessage(level, message, colorHint = null) {
+        const logDiv = document.createElement('div');
+        const timestamp = new Date().toLocaleTimeString();
+        let icon = '📌';
+        let color = '#bbd9ff';
+        if (level === 'success') { icon = '✅'; color = '#88ff88'; }
+        else if (level === 'error') { icon = '❌'; color = '#ff9e8f'; }
+        else if (level === 'warning') { icon = '⚠️'; color = '#ffd966'; }
+        else if (level === 'info') { icon = '🔹'; color = '#7bc5ff'; }
+        else if (level === 'system') { icon = '⚙️'; color = '#55ddff'; }
+        if (colorHint) color = colorHint;
+        logDiv.style.color = color;
+        logDiv.style.marginBottom = '6px';
+        logDiv.style.borderLeft = `3px solid ${color}`;
+        logDiv.style.paddingLeft = '8px';
+        logDiv.style.fontSize = '0.75rem';
+        logDiv.innerHTML = `<span style="opacity:0.6;">[${timestamp}]</span> ${icon} ${message}`;
+        liveLogsDiv.appendChild(logDiv);
+        logDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    clearLogsBtn.addEventListener('click', () => {
+        liveLogsDiv.innerHTML = '';
+        addLogMessage('system', 'Log console cleared.', '#0ff');
+    });
+
+    // Reset stats display
+    function resetStats(success=0, failed=0, invalid=0) {
+        statSuccessSpan.innerText = success;
+        statFailedSpan.innerText = failed;
+        statInvalidSpan.innerText = invalid;
+    }
+
+    // ---------- GITHUB API helpers with token ----------
+    async function verifyToken(token) {
+        const headers = { "Authorization": `token ${token}`, "Accept": "application/vnd.github.v3+json" };
+        try {
+            const response = await fetch("https://api.github.com/user", { headers, timeout: 8000 });
+            if (response.status === 200) {
+                const data = await response.json();
+                return { valid: true, username: data.login };
+            } else {
+                return { valid: false, username: null };
+            }
+        } catch (err) {
+            return { valid: false, username: null };
+        }
+    }
+
+    async function followUser(token, targetUsername) {
+        const headers = { "Authorization": `token ${token}`, "Accept": "application/vnd.github.v3+json" };
+        const url = `https://api.github.com/user/following/${targetUsername}`;
+        try {
+            const res = await fetch(url, { method: 'PUT', headers });
+            return res.status === 204 || res.status === 304;
+        } catch { return false; }
+    }
+
+    async function unfollowUser(token, targetUsername) {
+        const headers = { "Authorization": `token ${token}` };
+        const res = await fetch(`https://api.github.com/user/following/${targetUsername}`, { method: 'DELETE', headers });
+        return res.status === 204;
+    }
+
+    async function starRepo(token, repoFull) {
+        const headers = { "Authorization": `token ${token}`, "Accept": "application/vnd.github.v3+json" };
+        const url = `https://api.github.com/user/starred/${repoFull}`;
+        const res = await fetch(url, { method: 'PUT', headers });
+        return res.status === 204 || res.status === 304;
+    }
+
+    async function unstarRepo(token, repoFull) {
+        const headers = { "Authorization": `token ${token}` };
+        const res = await fetch(`https://api.github.com/user/starred/${repoFull}`, { method: 'DELETE', headers });
+        return res.status === 204;
+    }
+
+    async function forkRepo(token, repoFull) {
+        const headers = { "Authorization": `token ${token}`, "Accept": "application/vnd.github.v3+json", "Content-Type": "application/json" };
+        const res = await fetch(`https://api.github.com/repos/${repoFull}/forks`, { method: 'POST', headers });
+        return res.status === 202 || res.status === 200;
+    }
+
+    async function watchRepo(token, repoFull) {
+        const headers = { "Authorization": `token ${token}`, "Accept": "application/vnd.github.v3+json" };
+        const body = { "subscribed": true, "ignored": false };
+        const res = await fetch(`https://api.github.com/repos/${repoFull}/subscription`, { method: 'PUT', headers, body: JSON.stringify(body) });
+        return res.status === 200 || res.status === 201;
+    }
+
+    async function unwatchRepo(token, repoFull) {
+        const headers = { "Authorization": `token ${token}` };
+        const res = await fetch(`https://api.github.com/repos/${repoFull}/subscription`, { method: 'DELETE', headers });
+        return res.status === 204;
+    }
+
+    async function performAction(action, token, target) {
+        switch(action) {
+            case 'follow': return await followUser(token, target);
+            case 'unfollow': return await unfollowUser(token, target);
+            case 'star': return await starRepo(token, target);
+            case 'unstar': return await unstarRepo(token, target);
+            case 'fork': return await forkRepo(token, target);
+            case 'watch': return await watchRepo(token, target);
+            case 'unwatch': return await unwatchRepo(token, target);
+            default: return false;
+        }
+    }
+
+    // get action display name
+    function actionDisplayName(action) {
+        const map = {
+            'follow': 'Follow', 'unfollow': 'Unfollow', 'star': 'Star', 'unstar': 'Unstar',
+            'fork': 'Fork', 'watch': 'Watch', 'unwatch': 'Unwatch'
+        };
+        return map[action] || action;
+    }
+
+    // main booster engine (one by one)
+    async function runBooster(tokensList, targetName, actionType, maxTokens, delaySec) {
+        const limit = Math.min(maxTokens, tokensList.length);
+        if (limit === 0) {
+            addLogMessage('error', 'No valid tokens provided. Cannot proceed.', '#ff8888');
+            return { success:0, failed:0, invalid:0 };
+        }
+        if (!targetName || targetName.trim() === '') {
+            addLogMessage('error', 'Target username/repo empty! Provide valid target.', '#ff8888');
+            return { success:0, failed:0, invalid:0 };
+        }
+
+        let successCount = 0, failedCount = 0, invalidCount = 0;
+
+        for (let idx = 0; idx < limit; idx++) {
+            if (abortFlag) {
+                addLogMessage('warning', 'Process aborted by user.', '#ffaa55');
+                break;
+            }
+            const token = tokensList[idx].trim();
+            addLogMessage('info', `Processing token ${idx+1}/${limit} ...`, '#aaf0ff');
+            
+            // verify token
+            const { valid, username } = await verifyToken(token);
+            if (!valid) {
+                addLogMessage('error', `Token ${idx+1} INVALID or expired. Skipping.`, '#ffaa88');
+                invalidCount++;
+                updateStatsUI(successCount, failedCount, invalidCount);
+                continue;
+            }
+            addLogMessage('success', `✓ Token valid → Account: @${username}`, '#aaffdd');
+
+            // perform action
+            addLogMessage('info', `⚡ ${actionDisplayName(actionType)} on "${targetName}" ...`, '#b5f0ff');
+            let actionResult = false;
+            try {
+                actionResult = await performAction(actionType, token, targetName);
+            } catch(e) {
+                actionResult = false;
+                addLogMessage('error', `Network/api error: ${e.message}`, '#ff9999');
+            }
+
+            if (actionResult) {
+                successCount++;
+                addLogMessage('success', `✅ @${username} ${actionDisplayName(actionType)} on ${targetName} successful!`, '#aaffaa');
+            } else {
+                failedCount++;
+                addLogMessage('error', `❌ @${username} failed to ${actionDisplayName(actionType)} (API limitation / already done)`, '#ffb3a1');
+            }
+            
+            updateStatsUI(successCount, failedCount, invalidCount);
+            
+            // delay except last
+            if (idx < limit-1) {
+                addLogMessage('info', `⏳ Waiting ${delaySec} seconds before next token...`, '#77ccff');
+                await new Promise(r => setTimeout(r, delaySec * 1000));
+            }
+        }
+        return { success: successCount, failed: failedCount, invalid: invalidCount };
+    }
+
+    function updateStatsUI(s, f, i) {
+        statSuccessSpan.innerText = s;
+        statFailedSpan.innerText = f;
+        statInvalidSpan.innerText = i;
+    }
+
+    // EXECUTION handler
+    execBtn.onclick = async () => {
+        if (currentRunning) {
+            addLogMessage('warning', 'Booster already running. Please wait or refresh page.', 'orange');
+            return;
+        }
+        abortFlag = false;
+        const rawTokens = tokensTextarea.value.split(/\r?\n/).filter(t => t.trim().length > 0);
+        if (rawTokens.length === 0) {
+            addLogMessage('error', 'No tokens provided! Paste tokens first.', '#ff8c8c');
+            return;
+        }
+        let target = targetInput.value.trim();
+        if (!target) {
+            addLogMessage('error', 'Missing target! For follow/unfollow enter username, for star/fork/watch use "owner/repo"', '#ff8c8c');
+            return;
+        }
+        const action = actionSelect.value;
+        let useTokensCount = parseInt(useCountInput.value);
+        if (isNaN(useTokensCount) || useTokensCount < 1) useTokensCount = 1;
+        let delayVal = parseInt(delayInput.value);
+        if (isNaN(delayVal) || delayVal < 1) delayVal = 2;
+        delayVal = Math.min(delayVal, 10);
+        
+        // extra validation for star/fork/watch target format
+        if ((action === 'star' || action === 'unstar' || action === 'fork' || action === 'watch' || action === 'unwatch') && !target.includes('/')) {
+            addLogMessage('error', `Action "${actionDisplayName(action)}" requires repository format: owner/repo (e.g., octocat/Hello-World)`, '#ffaa66');
+            return;
+        }
+        if ((action === 'follow' || action === 'unfollow') && target.includes('/')) {
+            addLogMessage('error', `Follow/Unfollow action needs a GitHub username, not a repository.`, '#ffaa66');
+            return;
+        }
+
+        currentRunning = true;
+        resetStats(0,0,0);
+        addLogMessage('system', `🚀 BOOST STARTED → Action: ${actionDisplayName(action)} | Target: ${target} | Tokens: ${Math.min(useTokensCount, rawTokens.length)} | Delay: ${delayVal}s`, '#0ff');
+        
+        const result = await runBooster(rawTokens, target, action, useTokensCount, delayVal);
+        
+        addLogMessage('system', `══════════ BOOST FINISHED ══════════`, '#f0f0aa');
+        addLogMessage('success', `✨ Summary: Success: ${result.success} | Failed: ${result.failed} | Invalid: ${result.invalid}`, '#bbffbb');
+        if(result.success > 0) addLogMessage('info', `✅ Task completed. GitHub metrics increased!`, '#aaffdd');
+        currentRunning = false;
+    };
+
+    // graceful abort? but we don't implement stop button, but disable double run.
+    // extra: optional token load example
+    updateTokenCount();
+    addLogMessage('system', 'Digital Glow UI ready — GitHub Booster Pro v12.0', '#0ff');
+    addLogMessage('info', '💡 Tip: Add tokens (one per line) → set target → choose action → EXECUTE', '#b0e0ff');
+</script>
+</body>
+</html>
