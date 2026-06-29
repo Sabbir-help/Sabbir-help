@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Sabbir-help/image/main/pinterestdownloader.com-1750369967.312705.gif" width="100%" alt="SABBIR Corporate Header"/>
-
-  <h1><font color="#0052FF">SABBIR</font> | <font color="#FFD700">Digital Infrastructure & Authority</font></h1>
+<h1><font color="#09C842">SABBIR</font> | <font color="#09C842">Digital Infrastructure & Authority</font></h1>
   <p><b>Advanced Engineering for High-Stakes Reputation Management and Repository Dominance</b></p>
 
   <p>
@@ -45,3 +44,6 @@ My standard of excellence extends to total profile transformations through the *
 <p align="center">
   <i>Copyright 2026 SABBIR | Global Digital Reputation Management | All Rights Reserved.</i>
 </p>
+<div align="center">
+  <h6><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2w4NGhldTRjZzc4cndzYmx6ODExdDNjODdmejZuNXJuenllMTZzeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/GqHcfXmFu2Yp48i8e1/giphy.gif" width=50% />
+
